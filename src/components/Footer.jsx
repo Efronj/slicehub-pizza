@@ -15,7 +15,7 @@ const Footer = () => {
                         The best pizza in town, delivered fast to your doorstep. Experience the premium taste of SliceHub.
                     </p>
                     <div style={{ display: 'flex', gap: '1rem' }}>
-                        <Instagram size={20} style={{ cursor: 'pointer', color: 'var(--text-secondary)' }} />
+                        <a href="https://www.instagram.com/efron_joseph_/" target="_blank" rel="noopener noreferrer"><Instagram size={20} style={{ cursor: 'pointer', color: 'var(--text-secondary)' }} /></a>
                         <Twitter size={20} style={{ cursor: 'pointer', color: 'var(--text-secondary)' }} />
                         <Facebook size={20} style={{ cursor: 'pointer', color: 'var(--text-secondary)' }} />
                     </div>
