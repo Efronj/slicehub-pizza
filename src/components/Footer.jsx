@@ -50,7 +50,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container" style={{ marginTop: '4rem', paddingTop: '2rem', borderTop: '1px solid var(--border)', textAlign: 'center', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                © {new Date().getFullYear()} SliceHub. All rights reserved.
+                <p>© {new Date().getFullYear()} SliceHub. All rights reserved.</p>
+                <p style={{ marginTop: '0.5rem', fontSize: '0.85rem' }}>Made with <span style={{ color: 'var(--primary)' }}>❤️</span> by <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>Efron</span></p>
             </div>
         </footer>
     );
